@@ -6,7 +6,7 @@
     <title>David Castro Trujillo - Curriculum Vitae</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,180 +21,135 @@
 
             <div class="contact-bar">
                 <div class="contact-item">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span class="contact-label">Teléfono:</span>
                     <span>+52 271-749-88-12</span>
                 </div>
                 <div class="contact-item">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <span class="contact-label">Correo:</span>
                     <span>davidcap2018@gmail.com</span>
                 </div>
                 <div class="contact-item">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span class="contact-label">Ubicación:</span>
                     <span>Córdoba, Veracruz, México</span>
                 </div>
                 <div class="contact-item">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <span class="contact-label">GitHub:</span>
                     <span>github.com/DavidCastro15</span>
                 </div>
             </div>
         </header>
 
-        <!-- Main Content Layout -->
-        <div class="main-layout">
-            <!-- Left Column: Experience -->
-            <main class="left-column">
-                <section class="section">
-                    <h2 class="section-title">
-                        <span class="icon">💼</span> Experiencia Profesional
-                    </h2>
+        <!-- Single Column Layout for ATS Compatibility -->
+        <main class="main-content">
+            <!-- Experiencia Profesional -->
+            <section class="section">
+                <h2 class="section-title">Experiencia Profesional</h2>
 
-                    <div class="job-card">
-                        <div class="job-header">
-                            <div>
-                                <h3 class="job-role">Desarrollador de Software Multiplataforma</h3>
-                                <p class="job-company">Azucarera San José de Abajo</p>
-                            </div>
-                            <span class="job-date">Abril 2023 &ndash; Presente</span>
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3 class="job-role">Desarrollador de Software Multiplataforma</h3>
+                            <span class="job-company">Azucarera San José de Abajo</span>
                         </div>
-                        <ul class="job-bullet-list">
-                            <li>Desarrollo de ERP de Nómina en C# y SQL Server con implementación de lógica de negocio compleja para cálculos fiscales (ISR, IMSS e INFONAVIT).</li>
-                            <li>Diseño y optimización de consultas SQL, procedimientos almacenados (Stored Procedures) e índices para mejorar significativamente el rendimiento.</li>
-                            <li>Generación automatizada de reportes empresariales en formatos PDF, Excel y CSV.</li>
-                            <li>Automatización de procesos administrativos internos para reducir tiempos operativos.</li>
-                            <li>Desarrollo de un Sistema de Conteo de Bultos de Azúcar en C++ integrado con dispositivos IoT, complementado con una aplicación web en PHP y MySQL para el control y operación en tiempo real.</li>
-                            <li>Desarrollo de un Sistema de Almacén para el control y asignación eficiente de insumos y equipos tecnológicos a empleados.</li>
-                        </ul>
+                        <span class="job-date">Abril 2023 – Presente</span>
                     </div>
+                    <ul class="job-bullet-list">
+                        <li>Desarrollo de ERP de Nómina en C# y SQL Server con implementación de lógica de negocio compleja para cálculos fiscales (ISR, IMSS e INFONAVIT).</li>
+                        <li>Diseño y optimización de consultas SQL, procedimientos almacenados (Stored Procedures) e índices para mejorar significativamente el rendimiento de las bases de datos.</li>
+                        <li>Generación automatizada de reportes empresariales en formatos PDF, Excel y CSV.</li>
+                        <li>Automatización de procesos administrativos internos para reducir tiempos operativos.</li>
+                        <li>Desarrollo de un Sistema de Conteo de Bultos de Azúcar en C++ integrado con dispositivos IoT, complementado con una aplicación web en PHP y MySQL para el control y operación en tiempo real.</li>
+                        <li>Desarrollo de un Sistema de Almacén para el control y asignación eficiente de insumos y equipos tecnológicos a empleados.</li>
+                    </ul>
+                </div>
 
-                    <div class="job-card">
-                        <div class="job-header">
-                            <div>
-                                <h3 class="job-role">Desarrollador de Aplicación de Escritorio</h3>
-                                <p class="job-company">Soto Estacionamiento</p>
-                            </div>
-                            <span class="job-date">Enero 2023 &ndash; Marzo 2023</span>
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3 class="job-role">Desarrollador de Aplicación de Escritorio</h3>
+                            <span class="job-company">Soto Estacionamiento</span>
                         </div>
-                        <ul class="job-bullet-list">
-                            <li>Desarrollo e implementación de aplicación WinForms en VB.NET conectada a base de datos SQL Server.</li>
-                            <li>Programación de la lógica de negocio para el cálculo preciso de tarifas por fracciones de tiempo.</li>
-                            <li>Integración de comunicación con impresoras térmicas para la emisión instantánea de tickets.</li>
-                            <li>Diseño e implementación de módulos de reportes operativos diarios.</li>
-                        </ul>
+                        <span class="job-date">Enero 2023 – Marzo 2023</span>
                     </div>
+                    <ul class="job-bullet-list">
+                        <li>Desarrollo e implementación de aplicación WinForms en VB.NET conectada a base de datos SQL Server.</li>
+                        <li>Programación de la lógica de negocio para el cálculo preciso de tarifas por fracciones de tiempo.</li>
+                        <li>Integración de comunicación con impresoras térmicas para la emisión instantánea de tickets.</li>
+                        <li>Diseño e implementación de módulos de reportes operativos diarios.</li>
+                    </ul>
+                </div>
 
-                    <div class="job-card">
-                        <div class="job-header">
-                            <div>
-                                <h3 class="job-role">Becario - Desarrollador Web</h3>
-                                <p class="job-company">IZZI Telecom</p>
-                            </div>
-                            <span class="job-date">Agosto 2022 &ndash; Diciembre 2022</span>
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3 class="job-role">Becario - Desarrollador Web</h3>
+                            <span class="job-company">IZZI Telecom</span>
                         </div>
-                        <ul class="job-bullet-list">
-                            <li>Construcción del sistema web para control e inventario de herramientas del área de operaciones utilizando Laravel, Angular y MySQL.</li>
-                            <li>Desarrollo de macros avanzadas en Excel para automatizar tareas repetitivas de gestión administrativa.</li>
-                            <li>Ejecución de mantenimiento preventivo y correctivo de equipos de cómputo en el área de operaciones.</li>
-                        </ul>
+                        <span class="job-date">Agosto 2022 – Diciembre 2022</span>
                     </div>
-                </section>
-            </main>
+                    <ul class="job-bullet-list">
+                        <li>Construcción del sistema web para control e inventario de herramientas del área de operaciones utilizando Laravel, Angular y MySQL.</li>
+                        <li>Desarrollo de macros avanzadas en Excel para automatizar tareas repetitivas de gestión administrativa.</li>
+                        <li>Ejecución de mantenimiento preventivo y correctivo de equipos de cómputo en el área de operaciones.</li>
+                    </ul>
+                </div>
+            </section>
 
-            <!-- Right Column: Skills, Education, Languages -->
-            <aside class="right-column">
-                <!-- Competencias Técnicas -->
-                <section class="section">
-                    <h2 class="section-title">
-                        <span class="icon">🛠️</span> Habilidades Técnicas
-                    </h2>
-
+            <!-- Habilidades Técnicas -->
+            <section class="section">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="skills-grid">
                     <div class="skill-group">
-                        <h3 class="skill-category-title">Lenguajes de Programación</h3>
-                        <div class="tags">
-                            <span class="tag tag-primary">C#</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">SQL</span>
-                            <span class="tag">PHP</span>
-                            <span class="tag">C++</span>
-                            <span class="tag">Java</span>
-                            <span class="tag">VB.NET</span>
-                        </div>
+                        <span class="skill-category">Lenguajes de Programación:</span>
+                        <span class="skill-list">C#, JavaScript, TypeScript, SQL, PHP, C++, Java, VB.NET</span>
                     </div>
-
                     <div class="skill-group">
-                        <h3 class="skill-category-title">Ecosistema .NET & Backend</h3>
-                        <div class="tags">
-                            <span class="tag tag-primary">.NET Core</span>
-                            <span class="tag tag-primary">ASP.NET Web API</span>
-                            <span class="tag">ADO.NET</span>
-                            <span class="tag">LINQ</span>
-                            <span class="tag">WinForms</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">Spring Boot</span>
-                        </div>
+                        <span class="skill-category">Ecosistema .NET & Backend:</span>
+                        <span class="skill-list">.NET Core, ASP.NET Web API, ADO.NET, LINQ, WinForms, Node.js, Spring Boot</span>
                     </div>
-
                     <div class="skill-group">
-                        <h3 class="skill-category-title">Frameworks & Frontend</h3>
-                        <div class="tags">
-                            <span class="tag">Angular</span>
-                            <span class="tag">React</span>
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Ionic</span>
-                            <span class="tag">Laravel</span>
-                        </div>
+                        <span class="skill-category">Frameworks & Frontend:</span>
+                        <span class="skill-list">Angular, React, Vue.js, Ionic, Laravel</span>
                     </div>
-
                     <div class="skill-group">
-                        <h3 class="skill-category-title">Bases de Datos & IoT</h3>
-                        <div class="tags">
-                            <span class="tag">SQL Server</span>
-                            <span class="tag">MySQL</span>
-                            <span class="tag">Procedimientos Almacenados</span>
-                            <span class="tag">IoT</span>
-                        </div>
+                        <span class="skill-category">Bases de Datos & Tecnologías:</span>
+                        <span class="skill-list">SQL Server, MySQL, Procedimientos Almacenados, IoT, Git, REST APIs</span>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- Educación -->
-                <section class="section">
-                    <h2 class="section-title">
-                        <span class="icon">🎓</span> Educación
-                    </h2>
-                    <div class="edu-item">
-                        <h3 class="edu-degree">Ingeniería en Desarrollo y Gestión de Software</h3>
-                        <p class="edu-school">Universidad Tecnológica del Centro de Veracruz</p>
-                        <p class="edu-date">2020 &ndash; 2022</p>
+            <!-- Educación -->
+            <section class="section">
+                <h2 class="section-title">Educación</h2>
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3 class="edu-degree">Ingeniería en Desarrollo y Gestión de Software</h3>
+                            <p class="edu-school">Universidad Tecnológica del Centro de Veracruz</p>
+                        </div>
+                        <span class="edu-date">2020 – 2022</span>
                     </div>
-                    <div class="edu-item">
-                        <h3 class="edu-degree">T.S.U. en Desarrollo de Software Multiplataforma</h3>
-                        <p class="edu-school">Universidad Tecnológica del Centro de Veracruz</p>
-                        <p class="edu-date">2018 &ndash; 2020</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3 class="edu-degree">T.S.U. en Desarrollo de Software Multiplataforma</h3>
+                            <p class="edu-school">Universidad Tecnológica del Centro de Veracruz</p>
+                        </div>
+                        <span class="edu-date">2018 – 2020</span>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- Idiomas -->
-                <section class="section">
-                    <h2 class="section-title">
-                        <span class="icon">🌐</span> Idiomas
-                    </h2>
-                    <div class="lang-item">
-                        <div class="lang-info">
-                            <span class="lang-name">Español</span>
-                            <span class="lang-level">Nativo</span>
-                        </div>
-                        <div class="lang-bar"><div class="lang-fill" style="width: 100%;"></div></div>
-                    </div>
-                    <div class="lang-item">
-                        <div class="lang-info">
-                            <span class="lang-name">Inglés</span>
-                            <span class="lang-level">B1 - Intermedio</span>
-                        </div>
-                        <div class="lang-bar"><div class="lang-fill" style="width: 60%;"></div></div>
-                    </div>
-                </section>
-            </aside>
-        </div>
+            <!-- Idiomas -->
+            <section class="section">
+                <h2 class="section-title">Idiomas</h2>
+                <div class="languages-list">
+                    <p class="lang-text"><strong>Español:</strong> Nativo</p>
+                    <p class="lang-text"><strong>Inglés:</strong> B1 - Intermedio (Competencia profesional limitada / lectura técnica)</p>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>
