@@ -7,10 +7,10 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #1e293b;
-    background-color: #f8fafc;
-    line-height: 1.5;
-    font-size: 13px;
+    color: #111827;
+    background-color: #f3f4f6;
+    line-height: 1.45;
+    font-size: 12.5px;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
 }
@@ -19,50 +19,51 @@ body {
     max-width: 820px;
     margin: 20px auto;
     background: #ffffff;
-    padding: 36px 40px;
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    padding: 30px 34px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
 
 /* Header Styling */
 .header {
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 20px;
-    margin-bottom: 22px;
+    border-bottom: 2px solid #111827;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .name {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
-    color: #0f172a;
+    color: #000000;
     letter-spacing: -0.02em;
     margin-bottom: 2px;
 }
 
 .title {
-    font-size: 16px;
+    font-size: 13.5px;
     font-weight: 600;
-    color: #2563eb;
-    margin-bottom: 12px;
+    color: #374151;
+    margin-bottom: 8px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 }
 
 .summary {
-    font-size: 12.5px;
-    color: #475569;
-    line-height: 1.55;
-    margin-bottom: 16px;
+    font-size: 11.5px;
+    color: #374151;
+    line-height: 1.45;
+    margin-bottom: 10px;
 }
 
 .contact-bar {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px 20px;
-    background-color: #f1f5f9;
-    padding: 10px 16px;
+    gap: 8px 16px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    padding: 6px 12px;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 500;
 }
 
@@ -70,55 +71,56 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    color: #334155;
+    color: #1f2937;
 }
 
 .contact-item svg {
-    color: #2563eb;
+    color: #111827;
     flex-shrink: 0;
 }
 
 /* Main Layout Grid */
 .main-layout {
     display: grid;
-    grid-template-columns: 1fr 260px;
-    gap: 28px;
+    grid-template-columns: 1fr 255px;
+    gap: 22px;
 }
 
 .left-column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 14px;
 }
 
 .right-column {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 14px;
 }
 
 /* Section Styling */
 .section-title {
-    font-size: 14px;
+    font-size: 12.5px;
     font-weight: 700;
-    color: #0f172a;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-bottom: 1.5px solid #0f172a;
-    padding-bottom: 6px;
-    margin-bottom: 14px;
+    border-bottom: 1.5px solid #111827;
+    padding-bottom: 4px;
+    margin-bottom: 9px;
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.section-title .icon {
-    font-size: 14px;
+.section-icon {
+    flex-shrink: 0;
+    color: #111827;
 }
 
 /* Job Experience Card */
 .job-card {
-    margin-bottom: 16px;
+    margin-bottom: 11px;
 }
 
 .job-card:last-child {
@@ -129,28 +131,29 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .job-role {
-    font-size: 14px;
+    font-size: 12.5px;
     font-weight: 700;
-    color: #0f172a;
+    color: #111827;
     line-height: 1.3;
 }
 
 .job-company {
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 600;
-    color: #2563eb;
+    color: #4b5563;
 }
 
 .job-date {
-    font-size: 11px;
-    font-weight: 500;
-    color: #64748b;
-    background-color: #f1f5f9;
-    padding: 2px 8px;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #374151;
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    padding: 1px 6px;
     border-radius: 4px;
     white-space: nowrap;
 }
@@ -162,11 +165,11 @@ body {
 
 .job-bullet-list li {
     position: relative;
-    padding-left: 14px;
-    font-size: 12px;
-    color: #334155;
-    margin-bottom: 5px;
-    line-height: 1.45;
+    padding-left: 13px;
+    font-size: 11.2px;
+    color: #374151;
+    margin-bottom: 3.5px;
+    line-height: 1.4;
 }
 
 .job-bullet-list li::before {
@@ -174,49 +177,51 @@ body {
     position: absolute;
     left: 2px;
     top: 0;
-    color: #2563eb;
+    color: #111827;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* Skill Groups & Tags */
 .skill-group {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .skill-category-title {
-    font-size: 12px;
-    font-weight: 600;
-    color: #475569;
-    margin-bottom: 6px;
+    font-size: 10.8px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 4px;
 }
 
 .tag {
-    font-size: 11px;
-    padding: 3px 8px;
-    background-color: #f1f5f9;
-    color: #334155;
+    font-size: 10.5px;
+    padding: 1.5px 6px;
+    background-color: #f9fafb;
+    color: #374151;
     border-radius: 4px;
     font-weight: 500;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #d1d5db;
 }
 
 .tag-primary {
-    background-color: #eff6ff;
-    color: #1d4ed8;
-    border-color: #bfdbfe;
+    background-color: #111827;
+    color: #ffffff;
+    border-color: #111827;
     font-weight: 600;
 }
 
 /* Education Section */
 .edu-item {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .edu-item:last-child {
@@ -224,54 +229,55 @@ body {
 }
 
 .edu-degree {
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 700;
-    color: #0f172a;
-    line-height: 1.3;
+    color: #111827;
+    line-height: 1.25;
 }
 
 .edu-school {
-    font-size: 11.5px;
-    color: #475569;
-    margin-top: 2px;
+    font-size: 10.8px;
+    color: #4b5563;
+    margin-top: 1px;
 }
 
 .edu-date {
-    font-size: 11px;
-    color: #64748b;
+    font-size: 10.2px;
+    color: #6b7280;
     margin-top: 1px;
+    font-weight: 500;
 }
 
 /* Language Progress Item */
 .lang-item {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .lang-info {
     display: flex;
     justify-content: space-between;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
-    color: #334155;
-    margin-bottom: 4px;
+    color: #1f2937;
+    margin-bottom: 3px;
 }
 
 .lang-level {
-    font-size: 11px;
-    color: #64748b;
+    font-size: 10.5px;
+    color: #6b7280;
     font-weight: 400;
 }
 
 .lang-bar {
-    height: 6px;
-    background-color: #e2e8f0;
+    height: 5px;
+    background-color: #e5e7eb;
     border-radius: 3px;
     overflow: hidden;
 }
 
 .lang-fill {
     height: 100%;
-    background-color: #2563eb;
+    background-color: #111827;
     border-radius: 3px;
 }
 
@@ -289,7 +295,7 @@ body {
     .resume-container {
         max-width: 100%;
         margin: 0;
-        padding: 24px 32px;
+        padding: 20px 26px;
         box-shadow: none;
         border-radius: 0;
     }
