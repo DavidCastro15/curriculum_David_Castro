@@ -27,12 +27,12 @@ body {
 /* Header Styling */
 .header {
     border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 20px;
-    margin-bottom: 22px;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .name {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     color: #0f172a;
     letter-spacing: -0.02em;
@@ -40,29 +40,29 @@ body {
 }
 
 .title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #2563eb;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
 .summary {
-    font-size: 12.5px;
+    font-size: 11.5px;
     color: #475569;
-    line-height: 1.55;
-    margin-bottom: 16px;
+    line-height: 1.45;
+    margin-bottom: 10px;
 }
 
 .contact-bar {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px 20px;
+    gap: 12px 18px;
     background-color: #f1f5f9;
-    padding: 10px 16px;
+    padding: 7px 14px;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 500;
 }
 
@@ -82,31 +82,31 @@ body {
 .main-layout {
     display: grid;
     grid-template-columns: 1fr 260px;
-    gap: 28px;
+    gap: 24px;
 }
 
 .left-column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
 }
 
 .right-column {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 16px;
 }
 
 /* Section Styling */
 .section-title {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     color: #0f172a;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     border-bottom: 1.5px solid #0f172a;
-    padding-bottom: 6px;
-    margin-bottom: 14px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -118,7 +118,7 @@ body {
 
 /* Job Experience Card */
 .job-card {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .job-card:last-child {
@@ -129,28 +129,28 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .job-role {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     color: #0f172a;
     line-height: 1.3;
 }
 
 .job-company {
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 600;
     color: #2563eb;
 }
 
 .job-date {
-    font-size: 11px;
+    font-size: 10.5px;
     font-weight: 500;
     color: #64748b;
     background-color: #f1f5f9;
-    padding: 2px 8px;
+    padding: 2px 6px;
     border-radius: 4px;
     white-space: nowrap;
 }
@@ -163,10 +163,10 @@ body {
 .job-bullet-list li {
     position: relative;
     padding-left: 14px;
-    font-size: 12px;
+    font-size: 11.5px;
     color: #334155;
-    margin-bottom: 5px;
-    line-height: 1.45;
+    margin-bottom: 4px;
+    line-height: 1.4;
 }
 
 .job-bullet-list li::before {
@@ -181,25 +181,25 @@ body {
 
 /* Skill Groups & Tags */
 .skill-group {
-    margin-bottom: 12px;
+    margin-bottom: 9px;
 }
 
 .skill-category-title {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: #475569;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 4px;
 }
 
 .tag {
-    font-size: 11px;
-    padding: 3px 8px;
+    font-size: 10.5px;
+    padding: 2px 6px;
     background-color: #f1f5f9;
     color: #334155;
     border-radius: 4px;
@@ -214,9 +214,16 @@ body {
     font-weight: 600;
 }
 
+.tag-accent {
+    background-color: #f0fdf4;
+    color: #15803d;
+    border-color: #bbf7d0;
+    font-weight: 600;
+}
+
 /* Education Section */
 .edu-item {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .edu-item:last-child {
@@ -224,36 +231,36 @@ body {
 }
 
 .edu-degree {
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 700;
     color: #0f172a;
     line-height: 1.3;
 }
 
 .edu-school {
-    font-size: 11.5px;
+    font-size: 11px;
     color: #475569;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 .edu-date {
-    font-size: 11px;
+    font-size: 10.5px;
     color: #64748b;
     margin-top: 1px;
 }
 
 /* Language Progress Item */
 .lang-item {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .lang-info {
     display: flex;
     justify-content: space-between;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
     color: #334155;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .lang-level {
@@ -289,7 +296,7 @@ body {
     .resume-container {
         max-width: 100%;
         margin: 0;
-        padding: 24px 32px;
+        padding: 20px 28px;
         box-shadow: none;
         border-radius: 0;
     }
